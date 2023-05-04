@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- TOP LINE -->
+    <!----------TOP LINE----------->
+
     <header class="header-page">
       <div class="container page-header-container">
         <nav class="nav-page">
@@ -27,7 +28,7 @@
           </a>
           <ul class="menu-nav list">
             <li class="menu-item">
-              <a class="link nav-item" href="./index.html">Studio</a>
+              <a class="link nav-item activ" href="./index.html">Studio</a>
             </li>
             <li class="menu-item">
               <a class="link nav-item" href="./portfolio.html">Portfolio</a>
@@ -55,14 +56,18 @@
       </div>
     </header>
     <main>
-      <!-- Hero  -->
+
+      <!-- ------Hero  ---------->
+
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="btn" type="button">Order Service</button>
+          <button class="btn" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
-      <!-- Section 1 -->
+
+      <!---------Section 1---------->
+
       <section class="section">
         <div class="container">
           <h2 class="section-name" hidden>Feature</h2>
@@ -116,7 +121,8 @@
         </div>
       </section>
 
-      <!-- Section 2 -->
+      <!-- ------- Section 2 ---------->
+
       <section class="section">
         <div class="container">
           <h2 class="section-name position">What are we doing</h2>
@@ -148,7 +154,9 @@
           </ul>
         </div>
       </section>
-      <!-- Section 3 Our Team -->
+
+      <!------------- Section 3 Our Team ----------->
+
       <section class="section-team section">
         <div class="container">
           <h2 class="section-name position">Our Team</h2>
@@ -326,7 +334,9 @@
           </ul>
         </div>
       </section>
-      <!--  SECTION 4 -->
+      
+      <!----------  SECTION 4 ----------->
+
       <section class="section">
         <div class="container">
           <h2 class="title-customers">Customers</h2>
@@ -410,5 +420,17 @@
       </div>
    
     </footer>
+
+    <!----------Modal window ----------->
+
+    <div class="bacdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" data-modal-close>
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use></svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
