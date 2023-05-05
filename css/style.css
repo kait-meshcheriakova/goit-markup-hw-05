@@ -400,7 +400,7 @@ fill:var(--color-studio-footer);
 .card-decor:hover,
 .card-decor:focus{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px 
     rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
-    ;}
+    ;transform: translateY(0%);}
 
 .card-description
 {padding: 32px 16px;
@@ -432,10 +432,9 @@ fill:var(--color-studio-footer);
     position: relative;
     overflow: hidden;
 }
-.card-portfolio:hover,
-.card-portfolio:focus{transform: translateY(0%)}
-.overlay-card:hover,
-.overlay-card:focus{transform: translateY(0%);}
+
+.card-decor:hover .overlay-card ,
+.overlay-decor:focus overlay-card{transform: translateY(0%);}
 
 /* ============FOOTER=========== */
 
